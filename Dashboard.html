@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Moru Demo</title>
+       <script src="dataframe.js" type="text/javascript"></script>
+	   <script src="loaddata.js" type="text/javascript"></script>
+	   
+	
+    </head>	
+    <body>
+         <div id="divDashboard" class="dashboard">
+			<center><b>
+			<label>Moru Demo</label>
+			</b></center>
+		</div>
+		<div style="margin-top:20px;" >
+			<select id="selectDataset" class="select-style" style="margin-left:15%">
+				<option value="Contracts" selected>Contracts</option>
+				<option value="Payments">Payments</option>
+			</select>
+			<button onclick="loadData()" class="myButton">Load Dataset</button>
+			
+			
+		</div>
+		<div id="divTable" class="ex1"></div>	
+		
+    </body>
+</html>
+
